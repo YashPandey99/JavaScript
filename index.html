@@ -16,5 +16,70 @@
 </head>
 <body>
     <button onclick="sayHi()">Say Hi</button>
+    <script language="Javascript" type="text/Javascript">
+        <!--  
+        function clickevent()  
+        {  
+            document.write("This is Beta Labs");  
+        }  
+        //-->
+      </script>
+      <form>
+        <input type="button" onclick="clickevent()" value="Who's this?" />
+      </form>
+      <head>
+        <h1> Javascript Mouseover Events </h1>
+      </head>
+      
+      <body>
+        <script language="Javascript" type="text/Javascript">
+          <!--  
+          function mouseoverevent()  
+          {  
+              alert("This is Beta Labs");  
+          }  
+          //-->
+        </script>
+        <p onmouseover="mouseoverevent()"> Keep cursor over me</p>
+        <head> Javascript Events</head>
+
+<body>
+  <h2> Enter something here</h2>
+  <input type="text" id="input1" onfocus="focusevent()" />
+  <script>
+    <!--  
+    function focusevent() {
+      document.getElementById("input1").style.background = " aqua";
+    }
+    //
+    -->
+  </script>
+  <head> Javascript Keydown Events</head>
+
+  <body>
+    <h2> Enter something here</h2>
+    <input type="text" id="input1" onkeydown="keydownevent()" />
+    <script>
+      <!--  
+      function keydownevent() {
+        document.getElementById("input1");
+        alert("Pressed a key");
+      }
+      //
+      -->
+    </script>
+    <head>Javascript Load Event</head>
+</br>
+
+<body onload="window.alert('Page successfully loaded');">
+  <script>
+    <!--  
+    document.write("The page is loaded successfully");
+   
+          var x=3;
+      var y=5;
+
+      console.log(`sum of ${x} and ${y} is ${x+y}`);
+  </script>
 </body>
 </html>
